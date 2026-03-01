@@ -1,3 +1,6 @@
-name = input()
+def hello(to):
+    print("hello,", to)
 
-print(name.replace(" ", "___"))
+
+name = input("What's your name? ")
+hello(name)

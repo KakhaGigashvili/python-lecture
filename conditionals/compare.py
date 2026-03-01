@@ -1,9 +1,7 @@
-x = int(input("What's X? "))
-y = int(input("What's Y? "))
+x = int(input("What's x? "))
+y = int(input("What's y? "))
 
-if x < y:
-    print("x is less than y")
-elif y > x:
-    print("y is greater than x")
+if x != y:
+    print("x is not equal to y")
 else:
-    print("x is equal y")
+    print("x is equal to y")
